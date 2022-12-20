@@ -1,0 +1,6 @@
+1. Collision Matrix ТЛЬКО НУЖНЫЕ ГАЛОЧКИ!!!!
+2. Физика(AddForce) GetKey() в FixedUpdate!!!
+3. Update -> GetKeyDown()
+4. ForceMode.impulse не зависит от timestamp
+5. Forcemode.velocityChange не от чего не зависит!!!
+6. Input.GetAxis в FixedUpdate()
