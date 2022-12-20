@@ -6,11 +6,14 @@ public class StartGame : MonoBehaviour
 {
     void Start()
     {
-        PlayerEventsList.onTest?.Invoke();
+        
     }
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            PlayerEventsList.onTest?.Invoke();
+        }
     }
 }
